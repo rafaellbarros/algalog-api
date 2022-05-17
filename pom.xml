@@ -15,7 +15,8 @@
 	<description>API do AlgaLog</description>
 	<properties>
 		<java.version>11</java.version>
-		<lombok.version>1.15.24</lombok.version>
+		<lombok.version>1.18.24</lombok.version>
+		<jackson-dataformat-xml.version>2.13.3</jackson-dataformat-xml.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -32,9 +33,16 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.24</version>
+			<version>${lombok.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		<!--
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+			<version>${jackson-dataformat-xml.version}</version>
+		</dependency>
+		-->
 
 	</dependencies>
 
