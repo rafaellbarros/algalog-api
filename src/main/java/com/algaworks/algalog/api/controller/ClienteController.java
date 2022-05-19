@@ -1,9 +1,8 @@
-package com.algaworks.algalog.controller;
+package com.algaworks.algalog.api.controller;
 
-import com.algaworks.algalog.domail.model.entity.Cliente;
-import com.algaworks.algalog.domail.repository.ClienteRepository;
+import com.algaworks.algalog.domain.model.entity.Cliente;
+import com.algaworks.algalog.domain.repository.ClienteRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;

@@ -1,4 +1,4 @@
-package com.algaworks.algalog.domail.model.entity;
+package com.algaworks.algalog.domain.model.entity;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

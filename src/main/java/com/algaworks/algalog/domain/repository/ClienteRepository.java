@@ -1,6 +1,6 @@
-package com.algaworks.algalog.domail.repository;
+package com.algaworks.algalog.domain.repository;
 
-import com.algaworks.algalog.domail.model.entity.Cliente;
+import com.algaworks.algalog.domain.model.entity.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
